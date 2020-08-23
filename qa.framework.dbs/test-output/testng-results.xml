@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[              -------------------------------------- Test Started --------------------------------------              ]]>
+    </line>
+    <line>
+      <![CDATA[              -------------------------------------- Test Completed --------------------------------------              ]]>
+    </line>
+    <line>
+      <![CDATA[              -------------------------------------- Test Started --------------------------------------              ]]>
+    </line>
+    <line>
+      <![CDATA[              -------------------------------------- Test Completed --------------------------------------              ]]>
+    </line>
+    <line>
+      <![CDATA[              -------------------------------------- Test Started --------------------------------------              ]]>
+    </line>
+    <line>
+      <![CDATA[              -------------------------------------- Test Completed --------------------------------------              ]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="405858" started-at="2020-06-19T14:49:28Z" finished-at="2020-06-19T14:56:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="405858" started-at="2020-06-19T14:49:28Z" finished-at="2020-06-19T14:56:13Z">
+      <class name="teqo.qa.framework.teqo.Demo">
+        <test-method status="PASS" signature="openBrowser(int)[pri:0, instance:teqo.qa.framework.teqo.Demo@66d1af89]" name="openBrowser" is-config="true" duration-ms="194919" started-at="2020-06-19T20:19:28Z" finished-at="2020-06-19T20:22:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testIntialization()[pri:0, instance:teqo.qa.framework.teqo.Demo@66d1af89]" name="testIntialization" is-config="true" duration-ms="72212" started-at="2020-06-19T20:22:43Z" finished-at="2020-06-19T20:23:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[              -------------------------------------- Test Started --------------------------------------              ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testIntialization -->
+        <test-method status="FAIL" signature="falsey()[pri:0, instance:teqo.qa.framework.teqo.Demo@66d1af89]" name="falsey" duration-ms="955" started-at="2020-06-19T20:23:55Z" finished-at="2020-06-19T20:23:56Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Google] but found [Erixis]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Google] but found [Erixis]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at org.testng.Assert.assertEquals(Assert.java:463)at teqo.qa.framework.teqo.Demo.falsey(Demo.java:20)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- falsey -->
+        <test-method status="PASS" signature="testCompletion()[pri:0, instance:teqo.qa.framework.teqo.Demo@66d1af89]" name="testCompletion" is-config="true" duration-ms="1" started-at="2020-06-19T20:23:56Z" finished-at="2020-06-19T20:23:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[              -------------------------------------- Test Completed --------------------------------------              ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCompletion -->
+        <test-method status="PASS" signature="testIntialization()[pri:0, instance:teqo.qa.framework.teqo.Demo@66d1af89]" name="testIntialization" is-config="true" duration-ms="67" started-at="2020-06-19T20:23:56Z" finished-at="2020-06-19T20:23:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[              -------------------------------------- Test Started --------------------------------------              ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testIntialization -->
+        <test-method status="PASS" signature="print()[pri:0, instance:teqo.qa.framework.teqo.Demo@66d1af89]" name="print" duration-ms="1" started-at="2020-06-19T20:23:56Z" finished-at="2020-06-19T20:23:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+        <test-method status="PASS" signature="testCompletion()[pri:0, instance:teqo.qa.framework.teqo.Demo@66d1af89]" name="testCompletion" is-config="true" duration-ms="0" started-at="2020-06-19T20:23:56Z" finished-at="2020-06-19T20:23:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[              -------------------------------------- Test Completed --------------------------------------              ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCompletion -->
+        <test-method status="PASS" signature="testIntialization()[pri:0, instance:teqo.qa.framework.teqo.Demo@66d1af89]" name="testIntialization" is-config="true" duration-ms="130815" started-at="2020-06-19T20:23:56Z" finished-at="2020-06-19T20:26:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[              -------------------------------------- Test Started --------------------------------------              ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testIntialization -->
+        <test-method status="PASS" signature="truly()[pri:0, instance:teqo.qa.framework.teqo.Demo@66d1af89]" name="truly" duration-ms="29" started-at="2020-06-19T20:26:07Z" finished-at="2020-06-19T20:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- truly -->
+        <test-method status="PASS" signature="testCompletion()[pri:0, instance:teqo.qa.framework.teqo.Demo@66d1af89]" name="testCompletion" is-config="true" duration-ms="1" started-at="2020-06-19T20:26:07Z" finished-at="2020-06-19T20:26:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[              -------------------------------------- Test Completed --------------------------------------              ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCompletion -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:teqo.qa.framework.teqo.Demo@66d1af89]" name="closeBrowser" is-config="true" duration-ms="6378" started-at="2020-06-19T20:26:07Z" finished-at="2020-06-19T20:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="sendMailAfterExecution()[pri:0, instance:teqo.qa.framework.teqo.Demo@66d1af89]" name="sendMailAfterExecution" is-config="true" duration-ms="4944" started-at="2020-06-19T20:26:14Z" finished-at="2020-06-19T20:26:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMailAfterExecution -->
+      </class> <!-- teqo.qa.framework.teqo.Demo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
